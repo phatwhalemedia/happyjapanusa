@@ -1,0 +1,129 @@
+/*colorlist
+red: #bf1834
+blue: background-color: rgba(0, 68, 120, 0.7); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+ body {
+	color: white;
+    background-image: url("./images/osxwallpaperbl.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bg-custom {
+	background-color: rgba(255,255,255,0);
+}
+
+h1 h2{
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+}
+h3 {
+}
+
+h4{
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-size: .75rem;
+    font-weight 300;
+}
+a {
+	color: white;
+}
+
+p {
+	font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.1rem;
+}
+
+footer {
+}
+
+.navbar {
+	padding: 0 1rem;
+}
+
+.navlogo{
+	width: 30%;
+}
+
+.main-content {
+	background-color: rgba(0, 68, 120, 0.0);
+}
+
+.main-banner {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.footer-txt-color {
+	color: #004478;
+}
+
+.footer-txt-color a {
+	color: #004478;
+}
+
+.webmaster-info {
+    background-color: #bf1834;
+}
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.promotext{
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size:1.25rem;
+    font-weight: 500;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.navbar-nav a:hover {
+    color: white;
+    background-color:#bf1834;
+
+    border-radius: 12px;
+}
+
+ul li {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1..1rem;
+    line-height: 4rem;
+}
+
+::marker {
+    color: #bf1834;
+}
+.footerheader{
+padding: 0;
+}
+.footerlogo {
+    width: 240px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .container {
+    background-color: white;
+}
+
+footer ul li {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.rotateimg90{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
