@@ -1,6 +1,7 @@
 # happyjapanusa
 happyjapanusa website
-#TODO
+
+# TODO
 Add Video Banner
 Add PHPMailer
 Add Contact Page
