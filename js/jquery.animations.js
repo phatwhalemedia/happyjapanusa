@@ -1,3 +1,8 @@
 $(document).ready(function(){
-    $("h1").css("color", "blue");
+	$(".nav-link").hover(function(){
+
+    $(this).css( )
+}
+); 
+
 });

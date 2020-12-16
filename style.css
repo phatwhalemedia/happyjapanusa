@@ -14,18 +14,23 @@ blue: background-color: rgba(0, 68, 120, 0.7); */
 	background-color: rgba(255,255,255,0);
 }
 
-h1 h2{
-	font-family: "Roboto", sans-serif;
-	font-weight: 900;
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.75rem;
+	font-weight: 700;
 }
-h3 {
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
 }
 
 h4{
     margin-top: .25rem;
     margin-bottom: .25rem;
     font-size: .75rem;
-    font-weight 300;
+    font-weight: 300;
 }
 a {
 	color: white;
@@ -34,6 +39,16 @@ a {
 p {
 	font-family: "Noto Sans JP", sans-serif;
     font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.contact-info {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.phone-text{
+    font-size: 2.5rem;
 }
 
 footer {
@@ -44,7 +59,7 @@ footer {
 }
 
 .navlogo{
-	width: 30%;
+	width: 20%;
 }
 
 .main-content {
@@ -84,10 +99,12 @@ footer {
 }
 
 .navbar-nav a:hover {
-    color: white;
-    background-color:#bf1834;
-
+    color: #ffffff;
     border-radius: 12px;
+    opacity: 1!important;
+    transition: 0.5s;
+    background-color: #bf1834;
+    transition: 0.5s;
 }
 
 ul li {
