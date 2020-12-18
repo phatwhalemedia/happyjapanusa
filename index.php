@@ -1,7 +1,7 @@
-<?php require_once ('./header.php');
-define ('TITLE', 'Happy Japan USA'); ?>
-<body>
-<?php require_once ('nav.php'); ?>
+<?php 
+define ('PAGE_TITLE', 'HappyJapan USA'); 
+require_once ('./header.php');
+require_once ('nav.php'); ?>
 <!-- Main Content Starts Here -->
     <div class="container main-content">
         <div class="row">

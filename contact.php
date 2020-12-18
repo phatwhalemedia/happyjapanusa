@@ -5,13 +5,11 @@ require './includes/phpmailer/PHPMailer.php';
 require './includes/phpmailer/SMTP.php';
 require './includes/phpmailer/Exception.php';
 //Mail Script
-require './mail/sendmail.php';
+require_once './mail/sendmail.php';
 define ('PAGE_TITLE','Contacto');
-require('header.php');
+require_once('header.php');
 //Title Name
-?>
-<body>
-    <?php require 'nav.php'; ?>
+require_once  'nav.php'; ?>
     <main>
         <div class="pt-3 container" id="contactomain">
             <div class="row">
