@@ -2,7 +2,6 @@
 happyjapanusa website
 
 # TODO
-- Add Video Banner
-- Add PHPMailer
-- Add Contact Page
-- Add Products Page
+-Add video banner to landing page
+-Add product pictures
+-Finish product features layour on products.php
